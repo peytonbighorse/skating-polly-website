@@ -1,0 +1,196 @@
+a {
+  color: #817b17;
+  transition: all 200ms ease-in;
+}
+a:hover {
+  color: rgb(188, 45, 69);
+}
+.profile-right p {
+  font-size: 0.9rem;
+  line-height: 1.3;
+  padding: 10px;
+}
+
+.sp-icon {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+  margin-bottom: 15px;
+}
+.profile-name {
+  font-size: larger;
+}
+.sp.profile-container {
+  color: #222;
+}
+.kelli.profile-container {
+  color: rgb(213, 1, 1);
+}
+.peyton.profile-container {
+  color: #817b17;
+}
+.peyton-fav-color {
+  color: transparent;
+  background-color: #817b17;
+  border: 1px solid #222;
+}
+.kurtis.profile-container {
+  color: rgb(0, 140, 0);
+}
+
+.profile-heading {
+  font-size: clamp(2rem, 4vw, 5rem);
+  margin-top: 10vh;
+}
+.profile-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 3rem;
+  align-items: flex-start;
+  margin: 10px auto;
+  width: 800px;
+  color: #817b17;
+}
+.profile-left {
+  flex: 1;
+  max-width: 300px;
+  text-align: left;
+}
+.profile-right {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.profile-right-heading {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.5rem;
+  text-align: left;
+  background-color: #fffcf5;
+  padding: 5px 10px;
+  margin: 0;
+}
+.heading-right {
+  text-align: right;
+}
+.quiz-result {
+  font-size: 0.6rem;
+  align-self: flex-end;
+}
+
+.about-me-container,
+.my-life-list-container {
+  width: auto;
+}
+.profile-section-head {
+  display: flex;
+  justify-content: space-between;
+}
+.profile-section-head-element {
+  text-align: left;
+  background-color: #fffcf5;
+  padding: 5px 10px;
+  width: fit-content;
+  margin: 0 0 10px 0;
+  font-size: large;
+}
+.about-me-fields-container,
+.my-life-list-fields-container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-gap: 15px;
+}
+.about-me-left,
+.about-me-right,
+.my-life-list-left,
+.my-life-list-right {
+  width: 100%;
+}
+.profile-field-container {
+  list-style: none;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0 0 10px 0;
+}
+.quiz-field-container,
+.tour-playlist-container {
+  width: 100%;
+  max-width: 200px;
+}
+.profile-field-container li,
+.quiz-field-container li,
+.tour-playlist-container li {
+  justify-content: left;
+  padding: 2px 10px 2px 10px;
+  text-align: left;
+  font-size: 0.65rem;
+  height: fit-content;
+  margin-bottom: 10px;
+}
+
+.profile-icon {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+  background-color: #fffcf5;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+.profile-field {
+  background-color: transparent;
+  background-color: #fffcf5;
+}
+
+.form-group {
+  margin-bottom: 2vh;
+}
+
+.carousel {
+  width: 100%;
+  max-width: 200px;
+  overflow: hidden;
+  background-color: #fffcf5;
+  padding: 10px;
+}
+
+.carousel-track-container {
+  overflow: hidden;
+  width: 100%;
+  max-width: 200px;
+}
+
+.carousel-track {
+  display: flex;
+  transition: transform 0.4s ease-in-out;
+}
+
+.carousel-slide {
+  width: 100%;
+  max-width: 200px;
+  height: 100%;
+  max-height: 200px;
+  object-fit: cover;
+}
+
+.carousel-buttons-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 10px;
+  padding: 0;
+  width: 100%;
+  max-width: 200px;
+}
+
+.carousel-button {
+  width: fit-content;
+}
+button.carousel-button.prev {
+  text-align: left;
+}
+button.carousel-button.next {
+  text-align: right;
+}

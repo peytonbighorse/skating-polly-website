@@ -1,0 +1,22 @@
+.contact-heading {
+  font-size: clamp(2rem, 4vw, 5rem);
+  margin-top: 10vh;
+}
+
+.contact-list {
+  list-style: none;
+  display: block;
+  line-height: 3;
+  padding: 5vh;
+}
+.contact-link {
+  transition: all 200ms ease-in-out;
+}
+.contact-link:hover {
+  transform: scale(1.2);
+}
+.google-contact-form {
+  width: 50%;
+  height: 900px;
+}
+

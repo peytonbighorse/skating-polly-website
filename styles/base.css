@@ -1,0 +1,30 @@
+@font-face {
+  font-family: "sans-poster-bold";
+  src: url("../assets/Fonts/SansPosterBold.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "cal-sans";
+  src: url("../assets/Fonts/CalSans-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  color: #fffcf5;
+  background-color: #222;
+  font-family: "sans-poster-bold", sans-serif;
+  margin: 0;
+  padding: 2vw;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+hr {
+  opacity: 0.25;
+  margin: 7vh;
+}
+
+.hidden {
+  display: none;
+}

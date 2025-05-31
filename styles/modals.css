@@ -1,0 +1,39 @@
+.close {
+  padding-right: 10px;
+  display: flex;
+  justify-content: right;
+  color: #222;
+}
+.close:hover {
+  cursor: pointer;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.modal-content {
+  background-color: #fffcf5e8;
+  margin: 10% auto;
+  padding: 20px;
+  width: 90%;
+  max-width: 400px;
+  min-height: 300px;
+  border-radius: 20px;
+  position: relative;
+}
+.input-field {
+  background-color: #fffcf5;
+  color: #222;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  border: 2px solid #222;
+  border-radius: 20px;
+}
