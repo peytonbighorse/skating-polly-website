@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,9 +7,10 @@
     <title>Footer</title>
 </head>
 <body style="--fav-color: <?= htmlspecialchars($favColor) ?>;">
+    <?php include 'includes/get-user-color.php'; ?>
     <footer>
       <hr />
-      <h6><a href="terms-and-privacy.php">Terms & Privacy</a></h6>
+      <h6><a href="terms-and-privacy.php" class="terms-link">Terms & Privacy</a></h6>
     </footer>
 </body>
 </html>
