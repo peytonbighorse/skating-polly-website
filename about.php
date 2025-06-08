@@ -30,7 +30,7 @@
         <!--About SP-->
         <div class="profile-right">
           <div class="about-me-container">
-            <h4 class="profile-section-head">About Skating Polly</h4>
+            <h4 class="profile-section-head-element">About Skating Polly</h4>
             <p class="profile-field">Skating Polly is an Ugly Pop trio from Oklahoma City, Oklahoma,
             founded in 2009 by step-sisters Kelli Mayo and Peyton Bighorse. What
             started with a shared love of raw, unpredictable music quickly turned
