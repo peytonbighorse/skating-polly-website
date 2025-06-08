@@ -2,6 +2,20 @@
 if (session_status() === PHP_SESSION_NONE) {
   session_start();
 }
+require_once("db_connect.php");
+
+$favColor = "#FFFCF5"; // fallback color
+
+if (isset($_SESSION['user_id'])) {
+    $stmt = $conn->prepare("SELECT fav_color FROM user_profiles WHERE user_id = ?");
+    $stmt->bind_param("i", $_SESSION['user_id']);
+    $stmt->execute();
+    $result = $stmt->get_result()->fetch_assoc();
+
+    if ($result && !empty($result['fav_color'])) {
+        $favColor = $result['fav_color'];
+    }
+}
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -14,12 +28,17 @@ if (session_status() === PHP_SESSION_NONE) {
     <link rel="stylesheet" href="../styles/layout.css">
     <link rel="stylesheet" href="../styles/components.css">
     <link rel="stylesheet" href="../styles/modals.css"> 
+    <style>
+      .sp-heading {
+        color: <?= htmlspecialchars($favColor) ?>;
+      }
+    </style>
 </head>
 <body>
     <div class="register-login-buttons">
       <?php if (isset($_SESSION['user_id'])): ?>
-      <button class="profile-button" onclick="window.location.href='../profile.php'">My Profile</button>
-      <button class="logout-button" onclick="window.location.href='../backend/logout.php'">Logout</button>
+      <button class="profile-button" onclick="window.location.href='profile.php'">My Profile</button>
+      <button class="logout-button" onclick="window.location.href='logout.php'">Logout</button>
       <?php include("../includes/music-player.php"); ?>
       <?php else: ?>
       <button class="register-button">Register</button>
@@ -29,7 +48,7 @@ if (session_status() === PHP_SESSION_NONE) {
 </div>
 
     <div class="heading">
-      <h1>SKATING POLLY</h1>
+      <h1 class="sp-heading">SKATING POLLY</h1>
       <div class="social-links header-links">
         <a href="https://www.instagram.com/skatingpolly" target="_blank"
           ><img src="../assets/Socials/ig-button.png" alt="instagram link"
