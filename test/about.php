@@ -55,7 +55,7 @@
           />
         <!--Tour Playlist-->
           <div class="tour-playlist-container">
-            <h4 class="profile-section-head-element"><a href="https://bandcamp.com/stupidho420" target="_blank">Tour Playlist</a></h4>
+            <h4 class="profile-section-head-element"><a href="https://youtu.be/4ValhV8NprU?si=YeUw69S1u84dr5L8" target="_blank">Tour Playlist</a></h4>
             <ul class="tour-playlist-field-container profile-field-container">
               <li class="profile-field">Tibetan Pop Stars - Hop Along</li>
               <li class="profile-field">Trap Door - Samantha Crain</li>
