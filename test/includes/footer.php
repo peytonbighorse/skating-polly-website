@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,7 +7,7 @@
     <link rel="stylesheet" href="test/styles/footer.css" />
     <title>Footer</title>
 </head>
-<body>
+<body style="--fav-color: <?= htmlspecialchars($favColor) ?>;">
     <footer>
       <hr />
       <h6><a href="terms-and-privacy.php">Terms & Privacy</a></h6>

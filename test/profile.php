@@ -42,6 +42,7 @@ $containerClass = strtolower($data['username']) . ' profile-container';
   <link rel="stylesheet" href="/test/styles/layout.css">
   <link rel="stylesheet" href="/test/styles/components.css">
   <link rel="stylesheet" href="/test/styles/profile.css">
+  <link rel="stylesheet" href="/test/styles/footer.css">
   <style>
   :root {
     --user-fav-color: <?php echo htmlspecialchars($data['fav_color'] ?? '#000'); ?>;

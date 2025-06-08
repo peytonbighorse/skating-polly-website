@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact | Skating Polly</title>
+    <link rel="stylesheet" href="/test/styles/footer.css">
     <link rel="stylesheet" href="/test/styles/base.css">
     <link rel="stylesheet" href="/test/styles/typography.css">
     <link rel="stylesheet" href="/test/styles/layout.css">
@@ -48,7 +49,7 @@
         >
       </div>
     </div>
-
+    <?php include("includes/footer.php"); ?>
     <script src="javascript/modals.js"></script>
   </body>
 </html>
