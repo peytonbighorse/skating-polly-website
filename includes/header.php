@@ -34,7 +34,7 @@ if (isset($_SESSION['user_id'])) {
       }
     </style>
 </head>
-<body>
+<body style="--fav-color: <?= htmlspecialchars($favColor) ?>;">
     <div class="register-login-buttons">
       <?php if (isset($_SESSION['user_id'])): ?>
       <button class="profile-button" onclick="window.location.href='profile.php'">My Profile</button>
