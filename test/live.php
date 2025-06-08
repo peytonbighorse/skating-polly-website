@@ -102,7 +102,7 @@
         data-bit-logo-position="bottomRight"
         data-bit-logo-color="rgba(255,253,246,0)"
       ></a>
-  
+    <?php include("includes/footer.php"); ?>
     <script src="https://widgetv3.bandsintown.com/main.min.js" async></script>
    <script src="javascript/modals.js"></script>
   </body>

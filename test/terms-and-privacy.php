@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Terms & Privacy</title>
+  <title>Terms & Privacy | Skating Polly</title>
   <link rel="stylesheet" href="styles/base.css" />
 </head>
 <body>

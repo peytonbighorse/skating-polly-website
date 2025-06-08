@@ -143,7 +143,7 @@ $containerClass = strtolower($data['username']) . ' profile-container';
   <button class="edit-profile-button" onclick="window.location.href='edit-profile.php?user_id=<?= $profileUserId ?>'">Edit Profile</button>
 <?php endif; ?>
 <?php endif; ?>
-
+<?php include("includes/footer.php"); ?>
 <script src="../test/javascript/profile-buttons.js"></script>
 </body>
 </html>
