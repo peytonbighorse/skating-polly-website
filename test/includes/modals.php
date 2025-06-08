@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Register/ Login | Skating Polly</title>
+    <title>Modals</title>
 </head>
 <body>
     <!--Registration Modal-->
@@ -14,7 +14,7 @@
 
           <h2 class="join-us">♥ Join us ♥</h2>
 
-          <form action="../backend/register.php" method="post" class="register">
+          <form action="../test/backend/register.php" method="post" class="register">
             <input
               type="text"
               name="username"
@@ -52,7 +52,7 @@
 
           <h2 class="login">♥ Welcome Back ♥</h2>
 
-          <form action="../backend/login.php" method="post" class="login">
+          <form action="../test/backend/login.php" method="post" class="login">
             <input
               type="email"
               name="email"
@@ -74,5 +74,3 @@
     </div>
 </body>
 </html>
-
-<!--Quiz Modal-->

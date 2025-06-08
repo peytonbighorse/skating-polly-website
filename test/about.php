@@ -4,14 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>About | Skating Polly</title>
-    <link rel="stylesheet" href="styles/base.css" />
-    <link rel="stylesheet" href="styles/typography.css" />
-    <link rel="stylesheet" href="styles/layout.css" />
-    <link rel="stylesheet" href="styles/components.css" />
-    <link rel="stylesheet" href="styles/modals.css" />
-    <link rel="stylesheet" href="styles/about.css" />
+    <link rel="stylesheet" href="/test/styles/base.css">
+    <link rel="stylesheet" href="/test/styles/typography.css">
+    <link rel="stylesheet" href="/test/styles/layout.css">
+    <link rel="stylesheet" href="/test/styles/components.css">
+    <link rel="stylesheet" href="/test/styles/modals.css">
+    <link rel="stylesheet" href="/test/styles/about.css" />
   </head>
-  <body>
+ <body>
     <?php include("includes/header.php"); ?>
     <?php include("includes/modals.php"); ?>
     <div class="about-section">
@@ -37,7 +37,7 @@
             into a full-blown force. In 2017, Kelli's brother Kurtis Mayo joined
             on drums, adding a new layer of intensity. They've released 6 albums,
             countless EPs and singles, and built a reputation for explosive live
-            shows. They've toures across the US, Canada, the UK, and Europe with
+            shows. They've toured across the US, Canada, the UK, and Europe with
             no plans to stop anytime soon.</p>
           </div>
         </div>
@@ -61,8 +61,8 @@
               <li class="profile-field">Trap Door - Samantha Crain</li>
               <li class="profile-field">Soup - Bugsy</li>
               <li class="profile-field">Drug Dealin Pagans - Kneecap</li>
-              <li class="profile-field">Casual - Chappell Roan</li>
-              <li class="profile-field">One That Suits Me - Hop Along</li>
+              <li class="profile-field">Floe - Philip Glass</li>
+              <li class="profile-field">Glide - Lily Chou-Chou</li>
               <li class="profile-field">Between The Bars - Elliott Smith</li>
               <li class="profile-field">I bhFiacha Linne - Kneecap</li>
               <li class="profile-field">Change - Kate Nash</li>

@@ -4,12 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact | Skating Polly</title>
-    <link rel="stylesheet" href="styles/base.css" />
-    <link rel="stylesheet" href="styles/typography.css" />
-    <link rel="stylesheet" href="styles/layout.css" />
-    <link rel="stylesheet" href="styles/components.css" />
-    <link rel="stylesheet" href="styles/modals.css" />
-    <link rel="stylesheet" href="styles/contact.css" />
+    <link rel="stylesheet" href="/test/styles/base.css">
+    <link rel="stylesheet" href="/test/styles/typography.css">
+    <link rel="stylesheet" href="/test/styles/layout.css">
+    <link rel="stylesheet" href="/test/styles/components.css">
+    <link rel="stylesheet" href="/test/styles/modals.css">
+    <link rel="stylesheet" href="/test/styles/contact.css" />
   </head>
   <body>
     <?php include("includes/header.php"); ?>

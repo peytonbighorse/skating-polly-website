@@ -141,11 +141,7 @@ $profile_prompts = [
     "Favorite non-SP album",
     "Best way to kill time in the van",
     "Best road-trip snack",
-    "Favorite SP show",
-    "Go-to karaoke song",
-    "Dream line-up",
-    "First album you ever bought",
-    
+    "Favorite SP show"
 ];
 ?>
 

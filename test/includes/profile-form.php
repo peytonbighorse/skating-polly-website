@@ -21,17 +21,17 @@ $mode = $mode ?? 'create';
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Create Profile | Skating Polly</title>
-    <link rel="stylesheet" href="../styles/base.css">
-    <link rel="stylesheet" href="../styles/typography.css">
-    <link rel="stylesheet" href="../styles/layout.css">
-    <link rel="stylesheet" href="../styles/components.css"> 
-    <link rel="stylesheet" href="../styles/profile.css"> 
+    <link rel="stylesheet" href="../test/styles/base.css">
+    <link rel="stylesheet" href="../test/styles/typography.css">
+    <link rel="stylesheet" href="../test/styles/layout.css">
+    <link rel="stylesheet" href="../test/styles/components.css"> 
+    <link rel="stylesheet" href="../test/styles/profile.css"> 
 </head>
 <body>
     <?php include("header.php"); ?>
     <?php include "profile-options.php"; ?>
     <h2><?php echo ($mode === 'edit') ? 'Edit Your Profile' : 'Create Your Profile'; ?></h2>
-        <form action="backend/save-profile.php" method="POST" class="create-profile-form">
+        <form action="../test/backend/save-profile.php" method="POST" class="create-profile-form">
             <!--SP Song-->
             <div class="form-group">
             <label for="fav_song">Favorite SP Song:</label>
@@ -58,7 +58,7 @@ $mode = $mode ?? 'create';
             </div>
             <!--SP Video-->
             <div class="form-group">
-            <label for="fav_video">Favorite SP Album:</label>
+            <label for="fav_video">Favorite SP Video:</label>
             <select name="fav_video" id="fav_video" required>
                 <option value="">-- Select One --</option>
                 <?php foreach ($fav_videos as $video): ?>
@@ -88,7 +88,7 @@ $mode = $mode ?? 'create';
             </div>
             <!--Optional prompt 2-->
             <div class="form-group">
-            <label for="prompt1">Choose a prompt:</label>
+            <label for="prompt2">Choose a prompt:</label>
             <select name="prompt2" id="prompt2">
                 <option value="">-- Select One --</option>
                 <?php foreach ($profile_prompts as $prompt): ?>

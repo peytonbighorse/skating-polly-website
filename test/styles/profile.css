@@ -1,3 +1,4 @@
+
 .profile-heading {
   font-size: clamp(2rem, 4vw, 5rem);
   margin-top: 10vh;
@@ -9,7 +10,8 @@
   align-items: flex-start;
   margin: 10px auto;
   width: 800px;
-  color: #817b17;
+  color: var(--user-fav-color);
+  
 }
 .profile-left {
   flex: 1;
@@ -92,6 +94,8 @@
   background-color: transparent;
   background-color: #fffcf5;
 }
+
+
 
 .form-group {
   margin-bottom: 2vh;
