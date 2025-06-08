@@ -51,7 +51,7 @@ $containerClass = strtolower($data['username']) . ' profile-container';
 
 </head>
 <body >
-
+<?php include 'includes/get-user-color.php'; ?>
 <?php include("../test/includes/header.php"); ?>
 
 <?php if (!$data): ?>

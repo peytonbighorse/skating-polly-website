@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -13,6 +14,7 @@
     <link rel="stylesheet" href="/test/styles/about.css" />
   </head>
  <body>
+  <?php include 'includes/get-user-color.php'; ?>
     <?php include("includes/header.php"); ?>
     <?php include("includes/modals.php"); ?>
     <div class="about-section">

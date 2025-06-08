@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="/test/styles/modals.css">
 </head>
 <body>
+  <?php include 'includes/get-user-color.php'; ?>
   <?php include("includes/header.php"); ?>
    <?php include("includes/modals.php"); ?>
     <h2 style="text-decoration: underline">
