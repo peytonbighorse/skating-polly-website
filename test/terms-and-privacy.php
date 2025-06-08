@@ -3,9 +3,15 @@
 <head>
   <meta charset="UTF-8" />
   <title>Terms & Privacy | Skating Polly</title>
-  <link rel="stylesheet" href="styles/base.css" />
+   <link rel="stylesheet" href="/test/styles/base.css">
+    <link rel="stylesheet" href="/test/styles/typography.css">
+    <link rel="stylesheet" href="/test/styles/layout.css">
+    <link rel="stylesheet" href="/test/styles/components.css">
+    <link rel="stylesheet" href="/test/styles/modals.css">
 </head>
 <body>
+  <?php include("includes/header.php"); ?>
+   <?php include("includes/modals.php"); ?>
     <h2 style="text-decoration: underline">
               Terms of Service & Privacy Policy
             </h2>

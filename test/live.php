@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="/test/styles/layout.css">
     <link rel="stylesheet" href="/test/styles/components.css">
     <link rel="stylesheet" href="/test/styles/modals.css">
+    <link rel="stylesheet" href="/test/styles/footer.css">
   </head>
   <body>
    <?php include("includes/header.php"); ?>

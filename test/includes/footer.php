@@ -9,7 +9,7 @@
 <body>
     <footer>
       <hr />
-      <h6><a href="terms-and-privacy.html">Terms & Privacy</a></h6>
+      <h6><a href="terms-and-privacy.php">Terms & Privacy</a></h6>
     </footer>
 </body>
 </html>
