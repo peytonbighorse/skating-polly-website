@@ -6,7 +6,7 @@
 }
 
 .social-links img:hover {
-    /*background-color: var(--fav-color, #284B1D);*/
+  /*background-color: var(--fav-color, #284B1D);*/
   filter: saturate(100%) invert(63%) sepia(51%) saturate(5899%)
     hue-rotate(78deg) brightness(101%) contrast(84%);
   transform: scale(1.2);
@@ -55,9 +55,9 @@ button {
   margin-right: 20px;
 }
 button:hover {
-  background-color: var(--fav-color, #284B1D);
-  color: #222;
-  border-color: #222;
+  background-color: var(--fav-color);
+  color: #fffcf5;
+  border-color: #fffcf5;
   transform: scale(1.1);
   cursor: pointer;
 }

@@ -48,7 +48,7 @@
       <!--Kelli Profile -->
       <div class="kelli profile-container hidden" id="kelli-profile-container">
       </div> <!--End Kelli Profile-Container-->
-      <!--Peyton Profile -->
+       <!--Peyton Profile -->
       <div class="peyton profile-container" id="peyton-profile-container">
         <div class="profile-left">
           <img
@@ -56,9 +56,15 @@
             alt="drawing of peyton with her dog"
             class="profile-icon"
           />
-        <!--Tour Playlist-->
+          <!--Tour Playlist-->
           <div class="tour-playlist-container">
-            <h4 class="profile-section-head-element"><a href="https://youtu.be/4ValhV8NprU?si=YeUw69S1u84dr5L8" target="_blank">Tour Playlist</a></h4>
+            <h4 class="profile-section-head-element">
+              <a
+                href="https://youtu.be/4ValhV8NprU?si=YeUw69S1u84dr5L8"
+                target="_blank"
+                >Tour Playlist</a
+              >
+            </h4>
             <ul class="tour-playlist-field-container profile-field-container">
               <li class="profile-field">Tibetan Pop Stars - Hop Along</li>
               <li class="profile-field">Trap Door - Samantha Crain</li>
@@ -72,18 +78,19 @@
               <li class="profile-field">Diamond Mine - Hop Along</li>
             </ul>
           </div>
-        <!--Quizzes-->
+          <!--Quizzes-->
           <div class="quiz-container">
             <h4 class="profile-section-head-element">Quizzes</h4>
             <ul class="quiz-field-container profile-field-container">
               <li class="profile-field">Which Skating Polly member are you?</li>
               <li class="profile-field">Find out your chaos level</li>
               <li class="profile-field">
-              Build your perfect day in the van to reveal your tour persona
+                Build your perfect day in the van to reveal your tour persona
               </li>
             </ul>
           </div>
-        </div> <!--End Profile-Left-->
+        </div>
+        <!--End Profile-Left-->
 
         <div class="profile-right">
           <div class="profile-right-heading">
@@ -94,7 +101,7 @@
               <div class="quiz-result" id="chaos-level">Chaos Level: 4</div>
               <div class="quiz-result" id="member-class">Class: Peyton</div>
               <div class="quiz-result" id="tour-persona">
-              Tour Persona: The Napper
+                Tour Persona: The Napper
               </div>
             </div>
           </div>
@@ -105,40 +112,40 @@
               <div class="about-me-left">
                 <ul class="profile-field-container">
                   <li class="profile-field">
-                  Favorite SP Song:
-                  <span>Flatwound Strings</span>
+                    Favorite SP Song:
+                    <span>Flatwound Strings</span>
                   </li>
                   <li class="profile-field">
-                  Favorite SP Video:
-                  <span>Tiger at the Drugstore</span>
+                    Favorite SP Video:
+                    <span>Tiger at the Drugstore</span>
                   </li>
                   <li class="profile-field">
-                  Favorite (non-SP) Album:
-                  <span>Get Disowned - Hop Along</span>
+                    Favorite (non-SP) Album:
+                    <span>Get Disowned - Hop Along</span>
                   </li>
                   <li class="profile-field">
-                  Favorite Color:
-                  <span class="peyton-fav-color">fav-color</span>
+                    Favorite Color:
+                    <span class="peyton-fav-color">fav-color</span>
                   </li>
                 </ul>
               </div>
               <div class="about-me-right">
                 <ul class="profile-field-container">
                   <li class="profile-field">
-                  Pet you'd bring on tour:
-                  <span>Georgie!!!</span>
+                    Pet you'd bring on tour:
+                    <span>Georgie!!!</span>
                   </li>
                   <li class="profile-field">
-                  First album you ever bought:
-                  <span>Dookie - Green Day</span>
+                    First album you ever bought:
+                    <span>Dookie - Green Day</span>
                   </li>
                   <li class="profile-field">
-                  Favorite game:
-                  <span>Hades</span>
+                    Favorite game:
+                    <span>Hades</span>
                   </li>
                   <li class="profile-field">
-                  Favorite movie:
-                  <span>The Banshees of Inishirin</span>
+                    Favorite movie:
+                    <span>The Banshees of Inishirin</span>
                   </li>
                 </ul>
               </div>
@@ -151,60 +158,119 @@
                 <h4 class="profile-section-head-element">Bookshelf</h4>
                 <ul class="profile-field-container">
                   <li class="profile-field">
-                  'A Little Life' - Hanya Yanagihara
+                    'A Little Life' - Hanya Yanagihara
+                  </li>
+                  <li class="profile-field">'A Secret History' - Donna Tart</li>
+                  <li class="profile-field">'Circe' - Madeline Miller</li>
+                  <li class="profile-field">'Educated' - Tara Westover</li>
+                  <li class="profile-field">'Horse' - Geraldine Brooks</li>
+                  <li class="profile-field">
+                    'Irena's Children' - Tilar J. Mazzeo
                   </li>
                   <li class="profile-field">
-                  'A Secret History' - Donna Tart
+                    'The Family Fang' - Kevin Wilson
                   </li>
                   <li class="profile-field">
-                  'Circe' - Madeline Miller
+                    'The Heaven & Earth Grocery Store' - James McBride
                   </li>
                   <li class="profile-field">
-                  'Educated' - Tara Westover
+                    'Tomorrow, Tomorrow, and Tomorrow' - Gabrielle Zevin
                   </li>
+                  <li class="profile-field">'Wild' - Cheryl Strayed</li>
                   <li class="profile-field">
-                  'Horse' - Geraldine Brooks
+                    'You Shall Know Our Velocity' - Dave Eggers
                   </li>
-                  <li class="profile-field">
-                  'Irena's Children' - Tilar J. Mazzeo
-                  </li>
-                  <li class="profile-field">
-                  'The Family Fang' - Kevin Wilson
-                  </li>
-                  <li class="profile-field">
-                  'The Heaven & Earth Grocery Store' - James McBride
-                  </li>
-                  <li class="profile-field">
-                  'Tomorrow, Tomorrow, and Tomorrow' - Gabrielle Zevin
-                  </li>
-                  <li class="profile-field">
-                  'Wild' - Cheryl Strayed
-                  </li>
-                  <li class="profile-field">
-                  'You Shall Know Our Velocity' - Dave Eggers
-                  </li>
+                </ul>
+                <!--Fave video games-->
+                <h4 class="profile-section-head-element">Top 5 Video Games</h4>
+                <ul class="profile-field-container">
+                  <li class="profile-field">Hades</li>
+                  <li class="profile-field">Stardew Valley</li>
+                  <li class="profile-field">Pokemon Ranger</li>
+                  <li class="profile-field">Super Mario World</li>
+                  <li class="profile-field">Pokemon Diamond</li>
                 </ul>
               </div>
               <div class="about-me-right">
                 <h4 class="profile-section-head-element">Pics</h4>
-                <div class="carousel profile-field-container"> 
+                <div class="carousel profile-field-container">
                   <div class="carousel-track-container">
                     <div class="carousel-track">
-                      <img class="carousel-slide" src="assets/Images/georgie/georgie-00.jpeg" alt="Georgie">
-                      <img class="carousel-slide" src="assets/Images/georgie/georgie-01.jpeg" alt="Photo 1">
-                      <img class="carousel-slide" src="assets/Images/georgie/georgie-02.jpeg" alt="Photo 2">
-                      <img class="carousel-slide" src="assets/Images/georgie/georgie-03.jpeg" alt="Photo 3">
-                      <img class="carousel-slide" src="assets/Images/georgie/georgie-04.jpeg" alt="Photo 4">
-                      <img class="carousel-slide" src="assets/Images/georgie/georgie-05.jpeg" alt="Photo 5">
-                      <img class="carousel-slide" src="assets/Images/georgie/georgie-06.jpeg" alt="Photo 6">
-                      <img class="carousel-slide" src="assets/Images/georgie/georgie-07.jpeg" alt="Photo 7">
-                      <img class="carousel-slide" src="assets/Images/georgie/georgie-08.jpeg" alt="Photo 8">
-                      <img class="carousel-slide" src="assets/Images/georgie/georgie-09.jpeg" alt="Photo 9">
-                      <img class="carousel-slide" src="assets/Images/georgie/georgie-10.jpeg" alt="Photo 10">
-                      <img class="carousel-slide" src="assets/Images/georgie/georgie-11.jpeg" alt="Photo 11">
-                      <img class="carousel-slide" src="assets/Images/georgie/georgie-12.jpeg" alt="Photo 12">
-                      <img class="carousel-slide" src="assets/Images/georgie/georgie-13.jpeg" alt="Photo 13">
-                      <img class="carousel-slide" src="assets/Images/georgie/georgie-14.jpeg" alt="Photo 14">
+                      <img
+                        class="carousel-slide"
+                        src="assets/Images/georgie/georgie-00.jpeg"
+                        alt="Georgie"
+                      />
+                      <img
+                        class="carousel-slide"
+                        src="assets/Images/georgie/georgie-01.jpeg"
+                        alt="Photo 1"
+                      />
+                      <img
+                        class="carousel-slide"
+                        src="assets/Images/georgie/georgie-02.jpeg"
+                        alt="Photo 2"
+                      />
+                      <img
+                        class="carousel-slide"
+                        src="assets/Images/georgie/georgie-03.jpeg"
+                        alt="Photo 3"
+                      />
+                      <img
+                        class="carousel-slide"
+                        src="assets/Images/georgie/georgie-04.jpeg"
+                        alt="Photo 4"
+                      />
+                      <img
+                        class="carousel-slide"
+                        src="assets/Images/georgie/georgie-05.jpeg"
+                        alt="Photo 5"
+                      />
+                      <img
+                        class="carousel-slide"
+                        src="assets/Images/georgie/georgie-06.jpeg"
+                        alt="Photo 6"
+                      />
+                      <img
+                        class="carousel-slide"
+                        src="assets/Images/georgie/georgie-07.jpeg"
+                        alt="Photo 7"
+                      />
+                      <img
+                        class="carousel-slide"
+                        src="assets/Images/georgie/georgie-08.jpeg"
+                        alt="Photo 8"
+                      />
+                      <img
+                        class="carousel-slide"
+                        src="assets/Images/georgie/georgie-09.jpeg"
+                        alt="Photo 9"
+                      />
+                      <img
+                        class="carousel-slide"
+                        src="assets/Images/georgie/georgie-10.jpeg"
+                        alt="Photo 10"
+                      />
+                      <img
+                        class="carousel-slide"
+                        src="assets/Images/georgie/georgie-11.jpeg"
+                        alt="Photo 11"
+                      />
+                      <img
+                        class="carousel-slide"
+                        src="assets/Images/georgie/georgie-12.jpeg"
+                        alt="Photo 12"
+                      />
+                      <img
+                        class="carousel-slide"
+                        src="assets/Images/georgie/georgie-13.jpeg"
+                        alt="Photo 13"
+                      />
+                      <img
+                        class="carousel-slide"
+                        src="assets/Images/georgie/georgie-14.jpeg"
+                        alt="Photo 14"
+                      />
                     </div>
                   </div>
                   <div class="carousel-buttons-container">
@@ -212,56 +278,33 @@
                     <button class="carousel-button next">›</button>
                   </div>
                 </div>
+                <br />
+                <div class="my-life-list-right">
+                  <h4 class="profile-section-head-element">
+                    My Life List (Top 8)
+                  </h4>
+                  <ul class="profile-field-container">
+                    <li class="profile-field">Steller's Jay</li>
+                    <li class="profile-field">Cooper's Hawk</li>
+                    <li class="profile-field">Wood Stork</li>
+                    <li class="profile-field">Osprey</li>
+                    <li class="profile-field">Brown Headed Cowbird</li>
+                    <li class="profile-field">Great Blue Heron</li>
+                    <li class="profile-field">Great Egret</li>
+                    <li class="profile-field">Bald Eagle</li>
+                  </ul>
+                </div>
               </div>
             </div>
           </div>
+
           <!--Favorites-->
-          <div class="my-life-list-container">
-            <h4 class="profile-section-head-element">My Life List (Top 10)</h4>
-            <div class="my-life-list-fields-container">
-              <div class="my-life-list-left">
-                <ul class="profile-field-container">
-                  <li class="profile-field">
-                  Steller's Jay
-                  </li>
-                  <li class="profile-field">
-                  Cooper's Hawk
-                  </li>
-                  <li class="profile-field">
-                  Wood Stork
-                  </li>
-                  <li class="profile-field">
-                  Osprey
-                  </li>
-                  <li class="profile-field">
-                  Brown Headed Cowbird
-                  </li>
-                </ul>
-              </div>
-              <div class="my-life-list-right">
-                <ul class="profile-field-container">
-                  <li class="profile-field">
-                  Great Blue Heron
-                  </li>
-                  <li class="profile-field">
-                  Great Egret
-                  </li>
-                  <li class="profile-field">
-                  Red Tailed Hawk
-                  </li>
-                  <li class="profile-field">
-                  Bald Eagle
-                  </li>
-                  <li class="profile-field">
-                  Northern Flicker
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div> <!--end life list-->
-        </div> <!--End Profile-Right-->
-        
-      </div> <!--End Peyton Profile-Container-->
+
+          <!--end life list-->
+        </div>
+        <!--End Profile-Right-->
+      </div>
+      <!--End Peyton Profile-Container-->
       <!--Kurtis Profile -->
       <div class="kurtis profile-container hidden" id="kurtis-profile-container">
      
