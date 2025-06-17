@@ -3,7 +3,7 @@ a {
   transition: all 200ms ease-in;
 }
 a:hover {
-  color: rgb(188, 45, 69);
+  color: var(--fav-color);
 }
 .profile-right p {
   font-size: 0.9rem;
