@@ -24,19 +24,7 @@ a:hover {
   color: #222;
 }
 .kelli.profile-container {
-  color: rgb(179, 1, 1);
-}
-.kelli-fav-color {
-  color: transparent;
-  background-color: rgb(179, 1, 1);
-  border: 1px solid #222;
-}
-.kelli-playlist {
-  color: rgb(179, 1, 1);
-}
-
-.kelli-playlist:hover {
-  color: #222;
+  color: rgb(213, 1, 1);
 }
 .peyton.profile-container {
   color: #817b17;
@@ -46,7 +34,6 @@ a:hover {
   background-color: #817b17;
   border: 1px solid #222;
 }
-
 .kurtis.profile-container {
   color: rgb(0, 140, 0);
 }
@@ -62,6 +49,7 @@ a:hover {
   align-items: flex-start;
   margin: 10px auto;
   width: 800px;
+  color: #817b17;
 }
 .profile-left {
   flex: 1;
@@ -150,13 +138,6 @@ a:hover {
   padding: 10px;
   margin-bottom: 15px;
 }
-.kelli.profile-icon {
-  background-color: rgb(179, 1, 1);
-}
-
-.peyton.profile-icon {
-  background-color: #817b17;
-}
 
 .profile-field {
   background-color: transparent;
@@ -206,13 +187,6 @@ a:hover {
 
 .carousel-button {
   width: fit-content;
-  transition: all 200ms ease-in-out;
-}
-.carousel-button:hover {
-  color: #222;
-  background-color: #fffcf5;
-  border: 2px solid #222;
-  transform: scale(1);
 }
 button.carousel-button.prev {
   text-align: left;
