@@ -16,6 +16,11 @@
   transition: all 200ms ease-in-out;
   transform-origin: bottom center;
 }
+@media (max-width: 600px) {
+  .page-links img {
+    width: clamp(8vw, 10vw, 60px);
+  }
+}
 .page-links img:hover {
   filter: saturate(100%) invert(63%) sepia(51%) saturate(5899%)
     hue-rotate(78deg) brightness(101%) contrast(84%);
