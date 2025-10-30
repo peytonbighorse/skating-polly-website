@@ -31,4 +31,6 @@ Please **do not reuse** artwork or code without permission. This project is lice
 
 ## About Me
 
-I'm a designer, coder, and performer based in Los Angeles. I’m currently building interactive fan-focused tools and learning more about product and mobile design.
+I'm a designer, coder, and performer. I’m currently building interactive fan-focused tools and learning more about product and mobile design.
+[Website → peytonbighorse.com](https://www.peytonbighorse.com)
+
